@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".detaill">
+
+    <TextView
+        android:id="@+id/tvtampil"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:text="selamat datang"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/tvtipe"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:text="tipe pelanggan: "
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:text="transaksi hari ini"
+        android:textAlignment="viewStart"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvKode"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:text="kode barang"
+        android:textAlignment="viewStart"/>
+
+        <TextView
+            android:id="@+id/tvNamabarang"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:text="nama barang"
+            android:textAlignment="viewStart"/>
+
+        <TextView
+            android:id="@+id/tvHarga"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:text="harga: "
+            android:textAlignment="viewStart"/>
+
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:text="total harga: "
+            android:textAlignment="viewStart"/>
+
+        <TextView
+            android:id="@+id/tvDispem"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:text="diskon pembelian hari ini: "
+            android:textAlignment="viewStart"/>
+
+        <TextView
+            android:id="@+id/tvdismem"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:text="diskon member: "
+            android:textAlignment="viewStart"/>
+
+        <TextView
+            android:id="@+id/tvBayar"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:text="jumlah bayar: "
+            android:textAlignment="viewStart"/>
+
+        <TextView
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:text="terima kasih telah berbelanjan di toko kami :)"
+            android:textStyle="bold"
+            android:textAlignment="viewStart"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnshare"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="share"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="#E920D7EF"
+        android:text="karambieh store"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="nama"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:text="tipe pelanggan"
+        android:textAlignment="center"/>
+
+    <RadioGroup
+        android:id="@+id/rgMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbGold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gold"
+            android:checked="true"
+            android:layout_marginLeft="70dp"/>
+
+        <RadioButton
+            android:id="@+id/rbSilver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="silver"
+            android:layout_marginStart="16dp"/>
+
+        <RadioButton
+            android:id="@+id/rbNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="normal"
+            android:layout_marginStart="16dp"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etKode"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="kode barang"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etJumlah"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="jumlah barang"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnProses"
+        android:layout_marginTop="30dp"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:text="proses"
+        android:layout_gravity="center"
+        android:background="#E931A2CD"/>
+
+</LinearLayout>
